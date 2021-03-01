@@ -2,6 +2,12 @@
 Python - Rasterio and Geopandas to calculate Zonal Statistics
 
 
+***
+### Run from colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IRxnwPkS9lxyHFuaxoDXUtOdwxdab9ZY)
+
+***
+
 Satellite data is dense and uses cells to store values. In many cases, however, you want only a summary of the satellite (raster) image converted into a tabular format - CSV or Pandas data frame.
 
 Let us say, for example; you have a Digital Elevation Model (DEM). The DEM image gives a clear representation of the elevation and topography of the area. Now, what if you want to get elevation values and integrate tabular data you have, for example, buildings, to get the elevation of each building.
